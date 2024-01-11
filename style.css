@@ -9,6 +9,10 @@ img {
 	height: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	font-family: "Montserrat", sans-serif;
 	line-height: 1.7;
@@ -33,6 +37,19 @@ body {
 
 .container h1 {
 	font-size: 60px;
+}
+
+.container h2 a {
+	font-size: 40px;
+	padding: 0.5rem 2rem;
+	border-radius: 10px;
+	/* background-color: coral; */
+	transition: all ease-out 0.5s;
+}
+
+.container h2 a:hover {
+	background-color: #102082;
+	color: #ffffff;
 }
 
 .count-down {
