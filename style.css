@@ -81,6 +81,10 @@ body {
 	font-weight: bold;
 }
 
+#launched {
+	color: #102082;
+}
+
 /* Responsiveness */
 @media (max-width: 880px) {
 	.container img {

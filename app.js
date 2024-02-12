@@ -1,5 +1,5 @@
 const countdown = document.querySelector(".count-down");
-const launchDate = new Date("Feb 8, 2024, 12:00:00").getTime();
+const launchDate = new Date("Mar 1, 2024, 12:00:00").getTime();
 
 // Update every sec
 const intvl = setInterval(() => {
@@ -31,6 +31,6 @@ const intvl = setInterval(() => {
 		clearInterval(intvl);
 		// Style and Output Text
 		countdown.style.color = "#102082";
-		countdown.innerHTML = "<h2><a href='#'>Launched</a></h2>";
+		countdown.innerHTML = "<h2><a href='#launched'>Launched</a></h2>";
 	}
 }, 1000);
