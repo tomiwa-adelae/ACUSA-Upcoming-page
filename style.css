@@ -30,9 +30,22 @@ body {
 	min-height: 100vh;
 }
 
+.img {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .container img {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+.container .media {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
 }
 
 .container h1 {
